@@ -77,7 +77,7 @@ body {
 </div>
 <div class="promo-container" style="display:none;">
   <div class="promo-code"></div>
-  <a href="htttp://jennamolby.com" target="_blank" class="btn">Register Now</a>
+  <a href="http://www.medrio.com" target="_blank" class="btn">Register Now</a>
 </div>
 
 
@@ -87,9 +87,9 @@ body {
 <script type="text/javascript">
 
 var promoCode = '';
-var bg1 = 'https://jennamolby.com/scratch-and-win/images/400.png';
-var bg2 = 'https://jennamolby.com/scratch-and-win/images/500.png';
-var bg3 = 'https://jennamolby.com/scratch-and-win/images/sorry.png';
+var bg1 = './img/one.png';
+var bg2 = './img/two.png';
+var bg3 = './img/three.png';
 var bgArray= [ bg1, bg2, bg3 ],
 selectBG = bgArray[Math.floor(Math.random() * bgArray.length)];
 if (selectBG == bg1) {
@@ -107,9 +107,9 @@ $('#promo').wScratchPad({
     // give real-time updates
     realtime    : true, 
     // The overlay image
-    fg: 'https://jennamolby.com/scratch-and-win/images/overlay.png',
+    fg: 'img/overlay.png',
     // The cursor (coin) image
-    'cursor': 'url("https://jennamolby.com/scratch-and-win/images/coin1.png") 5 5, default',
+    // 'cursor': 'url("https://jennamolby.com/scratch-and-win/images/coin1.png") 5 5, default',
     
     scratchMove: function (e, percent) {
         // Show the plain-text promo code and call-to-action when the scratch area is 50% scratched
