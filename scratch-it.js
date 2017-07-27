@@ -21,7 +21,7 @@ $('#promo').wScratchPad({
     // The overlay image
     fg: 'img/overlay.png',
     // The cursor (coin) image
-    // 'cursor': 'url("https://jennamolby.com/scratch-and-win/images/coin1.png") 5 5, default',
+    'cursor': 'url("./img/rocket.png") 5 5, default',
     
     scratchMove: function (e, percent) {
         // Show the plain-text promo code and call-to-action when the scratch area is 50% scratched
